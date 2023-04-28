@@ -8,6 +8,8 @@ import Flutter
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
     GeneratedPluginRegistrant.register(with: self)
+    UIApplication.shared.setMinimumBackgroundFetchInterval(TimeInterval(60*10))
+    WorkmanagerPlugin.registerTask(withIdentifier: "com.example.mobile_engineering_sample_app.fetch_news")
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }
 }

@@ -1,2 +1,2 @@
 export './bloc/news_bloc.dart';
-export './models/models.dart';
+export './data/data.dart';
