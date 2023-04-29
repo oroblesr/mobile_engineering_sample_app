@@ -3,6 +3,7 @@ import 'package:equatable/equatable.dart';
 
 class NewsArticle extends Equatable {
   final String title;
+  final String content;
   final String description;
   final String url;
   final String urlToImage;
@@ -10,6 +11,7 @@ class NewsArticle extends Equatable {
 
   const NewsArticle({
     required this.title,
+    required this.content,
     required this.description,
     required this.url,
     required this.urlToImage,
@@ -19,6 +21,7 @@ class NewsArticle extends Equatable {
   @override
   List<Object?> get props => [
         title,
+        content,
         description,
         url,
         urlToImage,
@@ -30,6 +33,7 @@ class NewsArticle extends Equatable {
         articles['articles'].map((dynamic article) {
       return NewsArticle(
         title: article['title'] as String? ?? '',
+        content: article['content'] as String? ?? '',
         description: article['description'] as String? ?? '',
         url: article['url'] as String? ?? '',
         urlToImage: article['urlToImage'] as String? ?? '',

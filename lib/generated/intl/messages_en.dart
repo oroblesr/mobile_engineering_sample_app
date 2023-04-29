@@ -23,6 +23,7 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "errorWhileInitializing":
-            MessageLookupByLibrary.simpleMessage("Error while initializing")
+            MessageLookupByLibrary.simpleMessage("Error while initializing"),
+        "readMore": MessageLookupByLibrary.simpleMessage("Read More...")
       };
 }
