@@ -25,3 +25,10 @@ class ApiKeys {
   // TODO: Add your API key here
   static const newsOrg = '';
 }
+
+class LocalStorageKeys {
+  const LocalStorageKeys._();
+
+  static const mobileDb = 'mobile_engineering_sample_app_db';
+  static const newsArticles = 'newsArticles';
+}

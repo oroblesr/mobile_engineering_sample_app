@@ -21,5 +21,19 @@ class NewsUpdated extends NewsEvent {
 }
 
 class NewsNotFound extends NewsEvent {
-  const NewsNotFound();
+  const NewsNotFound({required this.reason});
+
+  final String reason;
+
+  @override
+  List<Object> get props => [reason];
+}
+
+class ToggleSaveArticle extends NewsEvent {
+  const ToggleSaveArticle(this.article);
+
+  final NewsArticle article;
+
+  @override
+  List<Object> get props => [article];
 }

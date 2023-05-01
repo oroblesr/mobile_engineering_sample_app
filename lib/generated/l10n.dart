@@ -60,6 +60,46 @@ class S {
     );
   }
 
+  /// `Home`
+  String get home {
+    return Intl.message(
+      'Home',
+      name: 'home',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Favorites`
+  String get favorites {
+    return Intl.message(
+      'Favorites',
+      name: 'favorites',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No news found`
+  String get noNews {
+    return Intl.message(
+      'No news found',
+      name: 'noNews',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No news found in favorites`
+  String get noNewsFavorite {
+    return Intl.message(
+      'No news found in favorites',
+      name: 'noNewsFavorite',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Read More...`
   String get readMore {
     return Intl.message(

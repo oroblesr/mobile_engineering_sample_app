@@ -1,4 +1,8 @@
 {
     "errorWhileInitializing": "Error al inicializar",
+    "home": "Inicio",
+    "favorites": "Favoritos",
+    "noNews": "No se encontraron noticias",
+    "noNewsFavorite": "No se encontraron noticias favoritas",
     "readMore": "Leer Mas..."
 }

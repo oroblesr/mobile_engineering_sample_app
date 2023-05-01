@@ -24,6 +24,11 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "errorWhileInitializing":
             MessageLookupByLibrary.simpleMessage("Error while initializing"),
+        "favorites": MessageLookupByLibrary.simpleMessage("Favorites"),
+        "home": MessageLookupByLibrary.simpleMessage("Home"),
+        "noNews": MessageLookupByLibrary.simpleMessage("No news found"),
+        "noNewsFavorite":
+            MessageLookupByLibrary.simpleMessage("No news found in favorites"),
         "readMore": MessageLookupByLibrary.simpleMessage("Read More...")
       };
 }

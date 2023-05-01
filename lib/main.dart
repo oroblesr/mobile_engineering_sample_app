@@ -3,6 +3,7 @@ import 'package:flutter/foundation.dart' as foundation;
 import 'package:flutter/material.dart';
 import 'package:mobile_engineering_sample_app/di/di.dart';
 import 'package:mobile_engineering_sample_app/generated/l10n.dart';
+import 'package:mobile_engineering_sample_app/news/bloc/news_bloc.dart';
 import 'package:mobile_engineering_sample_app/news_app.dart';
 import 'package:mobile_engineering_sample_app/ui/ui.dart';
 
@@ -43,6 +44,8 @@ class _AppState extends State<App> {
 
         // Once complete, show the application
         if (snapshot.connectionState == ConnectionState.done) {
+          sl<NewsBloc>().add(const LoadNews());
+
           return const NewsApp();
         }
 

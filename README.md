@@ -1,16 +1,12 @@
-# mobile_engineering_sample_app
+# News App
 
-A new Flutter project.
+App for fetching News with autorefresh and with local storage.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Get an API key from [NewsApi](https://newsapi.org/).
+2. Download the code.
+3. Add your API key to `lib/utils/constants.dart`.
+4. Connect an android device.
+5. Run the app.
+6. To save an article, tap the heart.

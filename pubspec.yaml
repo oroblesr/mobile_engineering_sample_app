@@ -41,10 +41,12 @@ dependencies:
   flutter_bloc: ^8.1.2
   get_it: ^7.3.0
   http: ^0.13.5
-  hive_flutter: ^2.0.0-dev
   intl: ^0.17.0
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  path_provider: ^2.0.14
+  persistent_bottom_nav_bar: ^5.0.2
   url_launcher: ^6.1.10
-  workmanager: ^0.5.1
 
 dev_dependencies:
   flutter_test:
@@ -55,7 +57,11 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
+  bloc_test: ^9.1.1
+  build_runner: ^2.3.3
   flutter_lints: ^2.0.0
+  isar_generator: ^3.1.0+1
+  mockito: ^5.4.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
